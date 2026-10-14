@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#191715">
+  <meta name="description" content="FORNO ROSSO — um conceito fictício de pizzaria artesanal inspirado no calor e nos sabores da Itália.">
+  <title>FORNO ROSSO — Pizza Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Forno Rosso home">
+        <span class="wordmark-icon" aria-hidden="true"><i class="fa-solid fa-fire-flame-curved"></i></span>
+        <span>FORNO <span class="wordmark-red">ROSSO</span><small>PIZZA ARTIGIANALE</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+        <a href="#top">Início</a>
+        <a href="#promocoes">Promoções</a>
+        <a href="#massa">Nossa massa</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+        <a class="button button-red nav-cta" href="cardapio.html">Ver pizzas <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Pizza napolitana recém-assada com queijo derretido"></div>
+      <div class="hero-content page-wrap">
+        <p class="eyebrow eyebrow-light"><span></span> Pizza artesanal</p>
+        <h1 id="hero-title">O VERDADEIRO<br>SABOR <em>DA ITÁLIA.</em></h1>
+        <p class="hero-copy">Um pouco de calor italiano, direto do forno a lenha. Massa naturalmente fermentada, ingredientes bonitos e a alegria de compartilhar mais uma fatia.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="cardapio.html">Explore nosso cardápio <span aria-hidden="true">↗</span></a>
+          <a class="text-link text-link-light" href="#eventos">Eventos e catering <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-note" aria-hidden="true"><span>BUONA</span><span>DA</span><span>CONDIVIDERE</span></div>
+      <a class="scroll-cue" href="#promocoes" aria-label="Rolar para promoções"><span></span> ROLE PARA DESCOBRIR</a>
+    </section>
+
+    <section class="promotions section-pad" id="promocoes" aria-labelledby="promotions-title">
+      <div class="page-wrap">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow"><span></span> Feito para compartilhar</p>
+            <h2 id="promotions-title">Um pouco de <em>algo</em><br>para toda mesa.</h2>
+          </div>
+          <p class="heading-aside">Boa comida fica ainda melhor em boa companhia.<br>Encontre sua razão para reunir.</p>
+        </div>
+        <p class="demo-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Todas as ofertas e preços abaixo são informações ilustrativas de demonstração.</p>
+        <!-- Replace demo offers and prices with owner-approved promotions before launch. -->
+        <div class="promo-grid">
+          <article class="promo-card promo-card-featured">
+            <div class="promo-image promo-family" role="img" aria-label="Duas pizzas prontas para compartilhar à mesa"></div>
+            <div class="promo-copy">
+              <span class="promo-number">01 / TUTTA LA FAMIGLIA</span>
+              <h3>Noite em Família</h3>
+              <p>Duas pizzas generosas e uma bebida para uma mesa cheia de boas histórias.</p>
+              <div class="promo-bottom"><span class="demo-price">R$ 129 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Estou interessado na oferta ilustrativa Noite em Família: duas pizzas grandes e uma bebida. Pode me passar mais detalhes?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+          <article class="promo-card">
+            <div class="promo-image promo-tuesday" role="img" aria-label="Pizza fresca coberta com folhas de manjericão"></div>
+            <div class="promo-copy">
+              <span class="promo-number">02 / MARTEDÌ</span>
+              <h3>Terça Dupla</h3>
+              <p>Uma de nossas pizzas especiais em demonstração, com uma razão extra para dizer sì.</p>
+              <div class="promo-bottom"><span class="demo-price">R$ 89 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Quero saber mais sobre a oferta ilustrativa da Terça Dupla. Pode me passar os detalhes?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+          <article class="promo-card">
+            <div class="promo-image promo-experience" role="img" aria-label="Pizza artesanal com tomates frescos, manjericão e queijo"></div>
+            <div class="promo-copy">
+              <span class="promo-number">03 / IL PIACERE</span>
+              <h3>Experiência Italiana</h3>
+              <p>Um combo premium de pizza imaginado para uma noite longa e tranquila, ao estilo italiano.</p>
+              <div class="promo-bottom"><span class="demo-price">R$ 159 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Estou interessado no combo premium ilustrativo Experiência Italiana. Pode me explicar mais?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dough-section" id="massa" aria-labelledby="dough-title">
+      <div class="dough-photo" role="img" aria-label="Mãos enfarinhadas moldando massa fresca de pizza"></div>
+      <div class="dough-content">
+        <p class="eyebrow"><span></span> O tempo é um ingrediente</p>
+        <h2 id="dough-title">A arte de<br>esperar <em>bem.</em></h2>
+        <p>Uma boa pizza começa muito antes do forno. Nossa cozinha fictícia dá tempo para cada massa desenvolver seu caráter e depois a combina com ingredientes selecionados com atenção e com o toque italiano mais simples: o cuidado.</p>
+        <p class="dough-detail">Fermentação lenta. Ingredientes sazonais. Um pouco de paciência em cada mordida.</p>
+        <p class="claim-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> A fermentação de 48 horas é uma afirmação de demonstração apenas. O dono fictício do negócio deve verificar isso antes do uso real.</p>
+        <a class="text-link" href="cardapio.html">Conheça as pizzas <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="events-section section-pad" id="eventos" aria-labelledby="events-title">
+      <div class="events-image" role="img" aria-label="Uma mesa longa para uma celebração acolhedora"></div>
+      <div class="events-copy">
+        <p class="eyebrow eyebrow-light"><span></span> À mesa, juntos</p>
+        <h2 id="events-title">Boa companhia.<br>Ótima <em>pizza.</em></h2>
+        <p>Traga um pouco de calor do forno para o próximo encontro. Este conceito está pronto para imaginar almoços corporativos, celebrações privadas e catering descontraído, pensado para cada ocasião.</p>
+        <ul class="event-list">
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Reuniões corporativas</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Celebrações privadas</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Catering de pizza</li>
+        </ul>
+        <button class="button button-cream" type="button" data-message="Olá! Estou interessado em um evento ou catering do FORNO ROSSO. Gostaria de falar sobre a ocasião, data, quantidade de convidados e opções.">Solicitar orçamento para evento <span aria-hidden="true">↗</span></button>
+        <p class="placeholder-note">Consulta de demonstração apenas — o número do WhatsApp é um placeholder configurável, não um contato do restaurante.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contato" aria-labelledby="contact-title">
+      <div class="page-wrap">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow"><span></span> Você nos encontra aqui</p>
+            <h2 id="contact-title">Venha nos <em>visitar.</em></h2>
+          </div>
+          <p class="heading-aside">Um cantinho fictício da Itália<br>em Curitiba, Brasil.</p>
+        </div>
+        <div class="contact-grid">
+          <!-- Replace the illustrative map query and fictional address with a verified business location before launch. -->
+          <div class="map-frame">
+            <iframe title="Mapa ilustrativo centralizado em Curitiba, Brasil" src="https://maps.google.com/maps?q=Curitiba%2C%20Brazil&t=&z=12&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span class="map-caption">Local ilustrativo · Curitiba, Brasil</span>
+          </div>
+          <div class="contact-details">
+            <div class="contact-block">
+              <span class="contact-label">ENCONTRE O NOSSO FORNO FICTÍCIO</span>
+              <h3>Rua das Oliveiras, 48</h3>
+              <p>Centro, Curitiba — PR<br>Brasil · Endereço ilustrativo</p>
+            </div>
+            <div class="contact-meta">
+              <div><span class="contact-label">ÁREA DE ENTREGA · DEMO</span><p>Centro e bairros próximos</p></div>
+              <div><span class="contact-label">HORÁRIO DE FUNCIONAMENTO · DEMO</span><p>Ter–Dom · 18:00–23:00<br>Agenda ilustrativa, não é status ao vivo</p></div>
+            </div>
+            <div class="social-row">
+              <!-- Replace these section links with official profile URLs after the accounts exist. -->
+              <a href="#contato" aria-label="Instagram fictício; perfil ainda não disponível"><i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram <small>placeholder</small></a>
+              <a href="#contato" aria-label="TikTok fictício; perfil ainda não disponível"><i class="fa-brands fa-tiktok" aria-hidden="true"></i> TikTok <small>placeholder</small></a>
+            </div>
+            <button class="text-link contact-whatsapp" type="button" data-message="Olá! Estou entrando em contato com o site de demonstração do FORNO ROSSO. Pode me passar mais informações?">Fale conosco no WhatsApp <span aria-hidden="true">↗</span></button>
+            <p class="placeholder-note">Somente demonstração: os links sociais são placeholders; o WhatsApp usa um número de demonstração configurável, não um contato do restaurante.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-wrap">
+      <div class="footer-main">
+        <a class="wordmark footer-wordmark" href="#top" aria-label="Forno Rosso, voltar ao topo">
+          <span class="wordmark-icon" aria-hidden="true"><i class="fa-solid fa-fire-flame-curved"></i></span>
+          <span>FORNO <span class="wordmark-red">ROSSO</span><small>PIZZA ARTIGIANALE</small></span>
+        </a>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+          <a href="#top">Início</a><a href="#promocoes">Promoções</a><a href="#massa">Nossa massa</a><a href="#eventos">Eventos</a><a href="#contato">Contato</a><a href="cardapio.html">Cardápio</a>
+        </nav>
+        <a class="footer-top" href="#top">Voltar ao topo ↑</a>
+      </div>
+      <div class="footer-bottom"><span>© <span data-current-year>2026</span> FORNO ROSSO. Um conceito fictício.</span><span class="demo-stamp">SITE DE DEMONSTRAÇÃO</span></div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Estou%20visitando%20o%20site%20de%20demonstra%C3%A7%C3%A3o%20do%20FORNO%20ROSSO.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank" rel="noopener noreferrer" aria-label="Número do WhatsApp em demonstração; enviar uma mensagem geral">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span class="whatsapp-tooltip">Diga olá <small>Número demo</small></span>
+  </a>
+</body>
+</html>
