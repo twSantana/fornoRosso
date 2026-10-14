@@ -1,5 +1,4 @@
-// Replace this demo number with the verified business WhatsApp number before launch.
-const DEMO_WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "554195807668";
 
 const header = document.querySelector(".site-header");
 const menuToggle = document.querySelector(".menu-toggle");
@@ -33,7 +32,7 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 updateHeader();
 
 function whatsappUrl(message) {
-  return `https://wa.me/${DEMO_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
 document.querySelectorAll("[data-message]").forEach((button) => {

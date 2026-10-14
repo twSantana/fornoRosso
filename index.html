@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23d8392f' d='M32 6c-4 8-8 11-8 19 0 6 4 11 9 11 5 0 9-4 9-10 0-7-4-13-10-20zm-2 33c-7 0-13 6-13 14 0 8 7 12 15 12 9 0 17-6 17-15 0-9-8-11-19-11z'/%3E%3Cpath fill='%23f5b400' d='M34 19c4 5 6 10 6 15 0 8-6 14-14 14-4 0-8-2-10-5 3 1 7 2 11 2 13 0 20-9 20-17 0-3-2-6-13-9z'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -39,12 +40,12 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-image" role="img" aria-label="Pizza napolitana recém-assada com queijo derretido"></div>
       <div class="hero-content page-wrap">
-        <p class="eyebrow eyebrow-light"><span></span> Pizza artesanal</p>
-        <h1 id="hero-title">O VERDADEIRO<br>SABOR <em>DA ITÁLIA.</em></h1>
-        <p class="hero-copy">Um pouco de calor italiano, direto do forno a lenha. Massa naturalmente fermentada, ingredientes bonitos e a alegria de compartilhar mais uma fatia.</p>
+        <p class="eyebrow eyebrow-light"><span></span> Pizza artesanal, feita na hora</p>
+        <h1 id="hero-title">PIZZA DE VERDADE.<br><em>FEITA PARA COMPARTILHAR.</em></h1>
+        <p class="hero-copy">Massa de longa fermentação, ingredientes frescos e aquele queijo derretendo. Escolha a sua e peça agora.</p>
         <div class="hero-actions">
-          <a class="button button-red" href="cardapio.html">Explore nosso cardápio <span aria-hidden="true">↗</span></a>
-          <a class="text-link text-link-light" href="#eventos">Eventos e catering <span aria-hidden="true">→</span></a>
+          <button class="button button-whatsapp" type="button" data-message="Olá! Quero fazer um pedido no FORNO ROSSO. Pode me enviar o cardápio e as opções disponíveis?"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Peça pelo WhatsApp</button>
+          <a class="text-link text-link-light" href="cardapio.html">Ver cardápio <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <div class="hero-note" aria-hidden="true"><span>BUONA</span><span>DA</span><span>CONDIVIDERE</span></div>
@@ -69,7 +70,7 @@
               <span class="promo-number">01 / TUTTA LA FAMIGLIA</span>
               <h3>Noite em Família</h3>
               <p>Duas pizzas generosas e uma bebida para uma mesa cheia de boas histórias.</p>
-              <div class="promo-bottom"><span class="demo-price">R$ 129 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Estou interessado na oferta ilustrativa Noite em Família: duas pizzas grandes e uma bebida. Pode me passar mais detalhes?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+              <div class="promo-bottom"><span class="demo-price">R$ 129 <small>DEMO</small></span><button class="button button-whatsapp promo-action" type="button" data-message="Olá! Estou interessado na oferta ilustrativa Noite em Família: duas pizzas grandes e uma bebida. Pode me passar mais detalhes?"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Pedir pelo WhatsApp</button></div>
             </div>
           </article>
           <article class="promo-card">
@@ -78,7 +79,7 @@
               <span class="promo-number">02 / MARTEDÌ</span>
               <h3>Terça Dupla</h3>
               <p>Uma de nossas pizzas especiais em demonstração, com uma razão extra para dizer sì.</p>
-              <div class="promo-bottom"><span class="demo-price">R$ 89 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Quero saber mais sobre a oferta ilustrativa da Terça Dupla. Pode me passar os detalhes?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+              <div class="promo-bottom"><span class="demo-price">R$ 89 <small>DEMO</small></span><button class="button button-whatsapp promo-action" type="button" data-message="Olá! Quero saber mais sobre a oferta ilustrativa da Terça Dupla. Pode me passar os detalhes?"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Pedir pelo WhatsApp</button></div>
             </div>
           </article>
           <article class="promo-card">
@@ -87,7 +88,7 @@
               <span class="promo-number">03 / IL PIACERE</span>
               <h3>Experiência Italiana</h3>
               <p>Um combo premium de pizza imaginado para uma noite longa e tranquila, ao estilo italiano.</p>
-              <div class="promo-bottom"><span class="demo-price">R$ 159 <small>DEMO</small></span><button class="text-link promo-action" type="button" data-message="Olá! Estou interessado no combo premium ilustrativo Experiência Italiana. Pode me explicar mais?">Perguntar sobre esta oferta <span aria-hidden="true">→</span></button></div>
+              <div class="promo-bottom"><span class="demo-price">R$ 159 <small>DEMO</small></span><button class="button button-whatsapp promo-action" type="button" data-message="Olá! Estou interessado no combo premium ilustrativo Experiência Italiana. Pode me explicar mais?"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Pedir pelo WhatsApp</button></div>
             </div>
           </article>
         </div>
@@ -118,7 +119,7 @@
           <li><i class="fa-solid fa-check" aria-hidden="true"></i> Catering de pizza</li>
         </ul>
         <button class="button button-cream" type="button" data-message="Olá! Estou interessado em um evento ou catering do FORNO ROSSO. Gostaria de falar sobre a ocasião, data, quantidade de convidados e opções.">Solicitar orçamento para evento <span aria-hidden="true">↗</span></button>
-        <p class="placeholder-note">Consulta de demonstração apenas — o número do WhatsApp é um placeholder configurável, não um contato do restaurante.</p>
+        <p class="placeholder-note">Os detalhes do evento serão confirmados diretamente pelo WhatsApp.</p>
       </div>
     </section>
 
@@ -153,7 +154,7 @@
               <a href="#contato" aria-label="TikTok fictício; perfil ainda não disponível"><i class="fa-brands fa-tiktok" aria-hidden="true"></i> TikTok <small>placeholder</small></a>
             </div>
             <button class="text-link contact-whatsapp" type="button" data-message="Olá! Estou entrando em contato com o site de demonstração do FORNO ROSSO. Pode me passar mais informações?">Fale conosco no WhatsApp <span aria-hidden="true">↗</span></button>
-            <p class="placeholder-note">Somente demonstração: os links sociais são placeholders; o WhatsApp usa um número de demonstração configurável, não um contato do restaurante.</p>
+            <p class="placeholder-note">Os links das redes sociais são ilustrativos. Para informações, fale conosco pelo WhatsApp.</p>
           </div>
         </div>
       </div>
@@ -176,8 +177,8 @@
     </div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Estou%20visitando%20o%20site%20de%20demonstra%C3%A7%C3%A3o%20do%20FORNO%20ROSSO.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank" rel="noopener noreferrer" aria-label="Número do WhatsApp em demonstração; enviar uma mensagem geral">
-    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span class="whatsapp-tooltip">Diga olá <small>Número demo</small></span>
+  <a class="whatsapp-float" href="https://wa.me/554195807668?text=Ol%C3%A1%21%20Estou%20visitando%20o%20site%20do%20FORNO%20ROSSO.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank" rel="noopener noreferrer" aria-label="Fale com o Forno Rosso pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>Peça pelo WhatsApp</span><span class="whatsapp-tooltip">Fale com a gente</span>
   </a>
 </body>
 </html>
